@@ -1,121 +1,175 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
-    "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "name": "Jaehyeon Park",
+    "occupation": "Full Stack Developer",
+    "description": "Music Producer turned to a developer.",
+    "image": "IMG_2024.jpeg",
+    "bio": "Hi there! I am Jay! As a Full Stack developer I've worked with a startup for MVP, called typebeat which is a music marketplace platform. I like to work on any position, front-end, middle-tier and back-end. I mostly use React.js for the front-end, C# .Net Core and SQL for the back end. Currently I'm a support engineer at Microsoft, can't wait to see where my next journey will be!",
+    "contactmessage": "Get in touch with me for more details!",
+    "email": "jpark2111@gmail.com",
+    "phone": "+16178003293",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "street": "12956 cuesta Ln",
+      "city": "Cerritos",
+      "state": "CA",
+      "zip": "90703"
     },
     "website": "https://www.papareact.com/course",
     "resumedownload": "http://papareact.com",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/jaehyeon01",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
+        "url": "https://www.instagram.com/jpark1124/",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/jpark2111",
         "className": "fa fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "My Programming Language Proficiency",
+    "frontSkillMessage": "Front-End",
+    "backendSkillMessage": "Back-End",
+    "toolsMessage": "Tools",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "Bethesda Christian University",
+        "degree": "Master's Degree, MBA",
+        "graduated": "Feb 2018",
+        "description": ""
+      },
+      {
+        "school": "Berklee College of Music",
+        "degree": "Bachelor's Degree, Electronic Production & Sound Design",
+        "graduated": "Sep 2014",
+        "description": ""
+      },
+      {
+        "school": "University of Seoul",
+        "degree": "Bachelor's Degree, Science Materials & Engineering",
+        "graduated": "Sep 2009",
+        "description": ""
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "Microsoft",
+        "title": "Application Support Engineer",
+        "years": "Aug 2021 - Present",
+        "description": "C# .Net, Azure support"
+      },
+      {
+        "company": "TypeBeat",
+        "title": "Full Stack Developer",
+        "years": "Dec 2020 - Aug 2021",
+        "description": "A music marketplace web platform application allows users and artists have different features and profiles depending on the each role so the typebeat uses role based routing, there are three roles admin, user and artist, and each role will have an access to the specific routes in the application so users can't access to the artist's route or features. and basically users can browse and purchase the contents in the application, and artists can upload and sell their unique contents."
       }
     ],
-    "skills": [
+    "frontSkills": [
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "name": "React.JS" 
       },
       {
-        "name": "Python",
-        "level": "85%"
+        "name": "JavaScript"    
       },
       {
-        "name": "Git",
-        "level": "70%"
+        "name": "HTML"    
       },
       {
-        "name": "JavaScript",
-        "level": "99%"
+        "name": "CSS"    
       },
       {
-        "name": "Web Development",
-        "level": "95%"
+        "name": "Material-UI"
+      },
+      {
+        "name": "BootStrap"
+      },
+      {
+        "name": "Tailwind CSS"
+      },
+      {
+        "name": "Jquery"
+      }
+    ],
+    "backendSkills": [
+      {
+        "name": "C# / .NET Core" 
+      },
+      {
+        "name": "Node.JS"    
+      },
+      {
+        "name": "REST API"
+      },
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "Azure"
+      },
+      {
+        "name": "AWS"
+      },
+      {
+        "name": "Firebase"
+      },
+      {
+        "name": "Netlify"
+      },
+      {
+        "name": "Next.JS"
+      }
+    ], 
+    "tools": [
+      {
+        "name": "GIT" 
+      },
+      {
+        "name": "GitHub" 
+      },
+      {
+        "name": "NPM/YARN"    
+      },
+      {
+        "name": "Visual Studio"
+      },
+      {
+        "name": "VS Code"
+      },
+      {
+        "name": "Slack"
+      },
+      {
+        "name": "Trello"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "TypeBeat",
         "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
-      },
-      {
-        "title": "Gmail Clone (React JS)",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
-      },
-      {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "image": "typebeat.jpg",
+        "url": "https://typebeat.azurewebsites.net"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
+        "text": "Jay is absolutely excellent, his attitude towards work, skills & quick and willing to learn really made him an awesome developer. I would definitely recommend",
+        "user": "Brijesh"
       },
       {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "text": "Learning with Jay has been AWESOME, he picks and learn so quickly React, C#, SQL etc..",
+        "user": "Gregorio"
       }
     ]
   }

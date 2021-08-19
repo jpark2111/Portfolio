@@ -2,17 +2,17 @@ import React from "react";
 
 const Portfolio = ({ data }) => {
   if (data) {
-    var projects = data.projects.map(function (projects) {
-      var projectImage = "images/portfolio/" + projects.image;
+    var projects = data.projects.map(function (project) {
+      var projectImage = "images/portfolio/" + project.image;
       return (
-        <div key={projects.title} className="columns portfolio-item">
+        <div key={project.title} className="columns portfolio-item">
           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-              <img alt={projects.title} src={projectImage} />
+            <a href={project.url} title={project.title}>
+              <img alt={project.title} src={projectImage} />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
+                  <h5>{project.title}</h5>
+                  <p>{project.category}</p>
                 </div>
               </div>
               <div className="link-icon">

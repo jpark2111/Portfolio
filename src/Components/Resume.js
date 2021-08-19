@@ -2,7 +2,9 @@ import React from "react";
 
 const Resume = ({ data }) => {
   if (data) {
-    var skillmessage = data.skillmessage;
+    var frontSkillMessage = data.frontSkillMessage;
+    var backendSkillMessage = data.backendSkillMessage;
+    var toolsMessage = data.toolsMessage;
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -27,12 +29,24 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
+    var frontSkills = data.frontSkills.map(function (skill) {    
       return (
-        <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className}></span>
-          <em>{skills.name}</em>
+        <li key={skill.name}> 
+          {skill.name}
+        </li>
+      );
+    });
+    var backendSkills = data.backendSkills.map(function (skill) {    
+      return (
+        <li key={skill.name}> 
+          {skill.name}
+        </li>
+      );
+    });
+    var tools = data.tools.map(function (tool) {    
+      return (
+        <li key={tool.name}> 
+          {tool.name}
         </li>
       );
     });
@@ -71,11 +85,22 @@ const Resume = ({ data }) => {
           </h1>
         </div>
 
-        <div className="nine columns main-col">
-          <p>{skillmessage}</p>
-
+        <div className="three columns main-col">
+          <p>{frontSkillMessage}</p>
           <div className="bars">
-            <ul className="skills">{skills}</ul>
+            <ul className="skills">{frontSkills}</ul>
+          </div>
+        </div>
+        <div className="three columns main-col">
+          <p>{backendSkillMessage}</p>
+          <div className="bars">
+            <ul className="skills">{backendSkills}</ul>
+          </div>
+        </div>
+        <div className="three columns main-col">
+          <p>{toolsMessage}</p>
+          <div className="bars">
+            <ul className="skills">{tools}</ul>
           </div>
         </div>
       </div>

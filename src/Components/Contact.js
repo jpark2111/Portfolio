@@ -27,6 +27,21 @@ const Contact = ({ data }) => {
     );
   };
 
+  const onInputChange = (e) => {
+    const inputName = e.target.name;
+    const newValue = e.target.value;
+    if(inputName === "contactName") {
+      setName(newValue)
+    } else if(inputName === "contactEmail") {
+      setEmail(newValue)
+    } else if(inputName === "contactSubject") {
+      setSubject(newValue)
+    } else if(inputName === "contactMessage") {
+      setMessage(newValue)
+    }
+    
+  }
+
   return (
     <section id="contact">
       <div className="row section-head">
@@ -56,7 +71,7 @@ const Contact = ({ data }) => {
                   size="35"
                   id="contactName"
                   name="contactName"
-                  onChange={(e) => setName(e.target.value)}
+                  onChange={onInputChange}
                 />
               </div>
 
@@ -71,7 +86,7 @@ const Contact = ({ data }) => {
                   size="35"
                   id="contactEmail"
                   name="contactEmail"
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={onInputChange}
                 />
               </div>
 
@@ -84,7 +99,7 @@ const Contact = ({ data }) => {
                   size="35"
                   id="contactSubject"
                   name="contactSubject"
-                  onChange={(e) => setSubject(e.target.value)}
+                  onChange={onInputChange}
                 />
               </div>
 
@@ -96,7 +111,7 @@ const Contact = ({ data }) => {
                   cols="50"
                   rows="15"
                   value={message}
-                  onChange={(e) => setMessage(e.target.value)}
+                  onChange={onInputChange}
                   id="contactMessage"
                   name="contactMessage"
                 ></textarea>
